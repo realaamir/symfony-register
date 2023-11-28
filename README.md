@@ -35,16 +35,16 @@ PHP uses [Symfony](https://symfony.com/doc/current/index.html), the best existin
 php bin/console doctrine:migrations:diff
 php bin/console doctrine:migrations:migrate
 php bin/console cache:clear
+php -S localhost:3000 -t public
 ```
-To run the project - php -S localhost:3000 -t publi
 
 # Usage
 
 ## Create User
 
 ```
-
 (http://localhost:3000/register)
+(http://localhost:3000/login)
 Validation Check: Email should be unique, Password should be alphanumeric.
 ```
 
