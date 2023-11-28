@@ -32,6 +32,21 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(type: 'boolean')]
     private bool $isVerified = false;
 
+    #[ORM\Column(length: 255, unique: false)]
+    private ?string $username = null;
+
+    public function getusername(): ?string
+    {
+        return $this->username;
+    }
+
+    public function setusername(string $username): self
+    {
+        $this->username = $username;
+
+        return $this;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
