@@ -1,2 +1,2 @@
 # symfony-register
-Registration and ogin with symfony
+Registration and login with symfony
