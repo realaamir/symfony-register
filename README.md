@@ -48,10 +48,6 @@ php -S localhost:3000 -t public
 Validation Check: Email should be unique, Password should be alphanumeric.
 ```
 
-# Files and changes
-
-For routing [routes](https://github.com/realaamir/akaunting/blob/main/routes/api.php)
-For Controller [Customer](https://github.com/realaamir/akaunting/blob/main/app/Http/Controllers/Api/Sales/Customers.php) and [Invoice/Billing](https://github.com/realaamir/akaunting/blob/main/app/Http/Controllers/Api/Sales/Invoices.php)
 
 # License
 
